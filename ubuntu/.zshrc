@@ -99,3 +99,5 @@ alias cwip='CUCUMBER_FORMAT=pretty spring cucumber --profile wip'
 # Init rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+[ -z $TMUX ] && export TERM=xterm-256color
+
