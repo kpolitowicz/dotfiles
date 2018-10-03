@@ -185,5 +185,4 @@ Plug 'tpope/vim-projectionist'
 Plug 'elixir-lang/vim-elixir'
 Plug 'avdgaag/vim-phoenix'
 Plug 'rodjek/vim-puppet'
-Plug 'ElmCast/elm-vim'
 call plug#end()
