@@ -59,7 +59,9 @@ set shiftround
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+"set list listchars=tab:»·,trail:·,nbsp:·
+"set list listchars=tab:\|\ ,trail:·,nbsp:·
+set list listchars=tab:\ \ ,trail:·,nbsp:·
 
 " Use one space, not two, after punctuation.
 set nojoinspaces
@@ -186,4 +188,8 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'avdgaag/vim-phoenix'
 Plug 'rodjek/vim-puppet'
 Plug 'ElmCast/elm-vim'
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go'
+Plug 'leafgarland/typescript-vim'
+Plug 'ianks/vim-tsx'
 call plug#end()
